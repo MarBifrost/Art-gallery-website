@@ -1,0 +1,215 @@
+@font-face {
+    font-family: Bigshoulder;
+    src: url(./fonts/BigShouldersDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(./fonts/Outfit-VariableFont_wght.ttf);
+}
+
+html {
+
+    font-size: 62.5%;
+}
+
+body {
+
+    width: 1439px;
+}
+
+.firstbox {
+
+    display: flex;
+}
+.blackrectangle {
+    width: 450px;
+    height: 799px;
+    margin-top: 1px;
+    background-color: #151515;
+}
+
+.hero {
+
+    width: 540px;
+    height: 800px;
+}
+
+.big {
+    position: absolute;
+    width: 514px;
+    height: 176px;
+    font-family: Bigshoulder;
+    font-size: 9.6rem;
+    font-weight: 900;
+    margin-top: 189px;
+    margin-left: 165px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
+.black {
+    color: black;
+}
+
+
+.half-color {
+
+    display: inline-block;
+    margin: 0; /* for demo snippet */
+    line-height: 1em; /* for demo snippet */ 
+    font-weight: 900;
+    font-size: 9.6rem;
+    font-family: Bigshoulder;
+    background: linear-gradient(to right, white 50%, black 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1 {
+    position: absolute;
+    font-family: Outfit;
+    font-weight: 320;
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+    color: #444444;
+    width: 350px;
+    height: 160px;
+    margin-left: -57px;
+    margin-top: 190px;
+}
+
+button {
+    
+    width: 220px;
+    height: 70px;
+    margin-top: 414px;
+    margin-left: -57px;
+    background: linear-gradient(to right, black 75%, #D5966C 25%);
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    letter-spacing: 3px;
+    font-family: Bigshoulder;
+    padding: 20px;
+}
+
+h2 {
+    font-family: Bigshoulder;
+    font-weight: 900;
+    font-size: 6rem;
+    line-height: 6rem;
+    color: #151515;
+    text-transform: uppercase;
+    width: 350px;
+    height: 120px;
+}
+
+h3 {
+    font-family: Outfit;
+    font-weight: 300;
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+    color: #444444;
+    width: 350px;
+    height: 128px;
+}
+
+.box2 {
+    width: 635px;
+    height: 400px;
+    margin-left: -310px;
+}
+
+.box3 {
+    width: 635px;
+    height: 720px;
+
+}
+
+.box4 {
+    width: 445px;
+    height: 313px;
+    margin-left: -120px;
+}
+
+.box5 {
+
+    width: 445px;
+    height: 377px;
+    background-color: #151515;
+    position: absolute;
+    margin-left: 685px;
+    margin-top: 772px;
+}
+
+h4 {
+    position: absolute;
+    font-family: Bigshoulder;
+    font-weight: 900;
+    font-size: 6rem;
+    line-height: 6rem;
+    color: white;
+    width: 350px;
+    height: 120px;
+    margin-top: 65px;
+    margin-left: 48px;
+}
+
+h5 {
+    position: absolute;
+    font-family: Outfit;
+    font-weight: 300;
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+    color: white;
+    width: 350px;
+    height: 96px;
+    margin-left: 48px;
+    margin-top: 200px;
+}
+
+.grid-container {
+    display: grid;
+    margin-top: 180px;
+    margin-left: 165px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto ;
+    gap: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1440px;
+    height: 244px;
+    background-color: black;
+}
+
+.icons {
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h6 {
+    font-family: Outfit;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: white;
+    width: 430px;
+    height: 84px;
+    opacity: 0.8;
+}
+
+.logolight {
+    width: 160px;
+    height: 58px;
+}
